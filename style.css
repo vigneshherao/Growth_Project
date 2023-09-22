@@ -2,9 +2,20 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    margin: 0px;
+    padding: 0px;
+}
 img{
     width: 200px;
     height: 50px;
+}
+.firstPart{
+    background: url(Images/Backgground.jpg);
+    height: 500px;
+    width: 100%;
+    background-size:cover;
+    margin: 0px;
 }
 .flex{
     display: flex;
@@ -45,4 +56,153 @@ ul{
     padding: 7px 10px;
     border-radius: 6px;
 }
+.firstPart h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+.firstPart h4{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.firstPart h3{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color:black;
+}   
+.mainHeading h1{
+    margin-top: 150px;
+}
+.userHeading{
+    margin-top: 300px;
+}
+.userReview{
+    height: 290vh;
+}
 
+
+.firstReview{
+    height: 350px;
+    width: 550px;
+    border: 6px solid black;
+    border-radius: 20px;
+    margin: 80px 0px 0px 300px;
+}
+.firstReview .description{
+    margin-top: 50px;
+    padding:10px;
+    width: 65%;
+    float: left;
+    
+}
+.firstReview .profile{
+    width:35%;
+    float: right;
+}
+.firstReview .profile img{
+    height: 201px;
+    width: 185px;
+    margin-top: 43px;
+    margin-right: 10px;
+}
+.services{
+    padding:10px;
+}
+.services p {
+    margin-top: 15px;
+    font-size: 12px;
+    background-color: rgb(214, 214, 214);
+    display: inline-block;
+}
+.secondReview{
+    height: 350px;
+    width: 550px;
+    border: 6px solid black;
+    border-radius: 20px;
+    margin: 80px 0px 0px 700px;
+}
+.secondReview .description{
+    margin-top: 50px;
+    padding:10px;
+    width: 65%;
+    float: left;
+    
+}
+.secondReview .profile{
+    width:35%;
+    float: right;
+}
+.secondReview .profile img{
+    height: 201px;
+    width: 185px;
+    margin-top: 43px;
+    margin-right: 10px;
+}
+.services{
+    padding:10px;
+}
+.services p {
+    margin-top: 15px;
+    font-size: 12px;
+    background-color: rgb(214, 214, 214);
+    display: inline-block;
+}
+.thirdReview{
+    height: 350px;
+    width: 550px;
+    border: 6px solid black;
+    border-radius: 20px;
+    margin: 80px 0px 0px 300px;
+}
+.thirdReview .description{
+    margin-top: 50px;
+    padding:10px;
+    width: 65%;
+    float: left;
+    
+}
+.thirdReview .profile{
+    width:35%;
+    float: right;
+}
+.thirdReview .profile img{
+    height: 201px;
+    width: 185px;
+    margin-top: 43px;
+    margin-right: 10px;
+}
+
+.fourthReview{
+    height: 350px;
+    width: 550px;
+    border: 6px solid black;
+    border-radius: 20px;
+    margin: 80px 0px 0px 700px;
+}
+.fourthReview .description{
+    margin-top: 50px;
+    padding:10px;
+    width: 65%;
+    float: left;
+    
+}
+.fourthReview .profile{
+    width:35%;
+    float: right;
+}
+.fourthReview .profile img{
+    height: 201px;
+    width: 185px;
+    margin-top: 43px;
+    margin-right: 10px;
+}
+.footerWave{
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+}
